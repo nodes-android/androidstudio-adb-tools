@@ -17,7 +17,7 @@ There must be a better way to share this but for now you need to copy-paste ever
     - Mac OS X: `~/Library/Preferences/AndroidStudio3.5/tools/External Tools.xml`
     - Windows: `// TODO`
 
-**Info:** If your desired path differs from `$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools/` u need to change all paths in your your **External Tools.xml**
+**Info:** If your desired path differs from `$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools/` u need to change all paths in your **External Tools.xml**
 
 ## Limitations
 
