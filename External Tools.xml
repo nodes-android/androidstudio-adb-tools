@@ -1,16 +1,23 @@
 <toolSet name="External Tools">
-  <tool name="ADB_ENABLE_DEVELOPER_SETTINGS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_enable_development_settings.sh" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
-    </exec>
-  </tool>
-  <tool name="ADB_OPEN_DEVELOPER_SETTINGS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_open_development_settings.sh" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
-    </exec>
-  </tool>
+    <tool name="ADB_OPEN_URL" description="Opens a web link" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_open_url.sh" />
+            <option name="PARAMETERS" value="$Prompt$" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
+    <tool name="ADB_ENABLE_DEVELOPER_SETTINGS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_enable_development_settings.sh" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
+    <tool name="ADB_OPEN_DEVELOPER_SETTINGS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_open_development_settings.sh" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
 </toolSet>
