@@ -1,6 +1,6 @@
 # androidstudio-adb-tools
 
-A External Tool for Android Studio/IntelliJ IDEA which provides some handy ADB actions:
+A External Tool for Android Studio/IntelliJ IDEA that provides some handy ADB actions:
 
 - Mac OS X: **⇧ ⇧ "ADB_"**
 - Windows : // TODO
@@ -9,7 +9,7 @@ A External Tool for Android Studio/IntelliJ IDEA which provides some handy ADB a
 
 ## Setup
 
-There must be a better way to share this but for now you have copy-paste every `<tool>` into your **External Tools.xml**.
+There must be a better way to share this but for now you need to copy-paste every `<tool>` into your **External Tools.xml**.
 
 1. Clone **androidstudio-adb-tools** to `/StudioProjects`
 2. Update your **External Tools.xml**
