@@ -2,9 +2,9 @@
 
 A External Tool for Android Studio/IntelliJ IDEA which provides some handy ADB actions.
 
-**How to: Double ⇧ "ADB_"**
+How to: **⇧ ⇧** plus **"ADB_"**
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/nodes-android/androidstudio-adb-tools/blob/master/docs/readme_example.png)
 
 ## Setup
 
