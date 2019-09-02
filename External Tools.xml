@@ -1,7 +1,14 @@
 <toolSet name="External Tools">
-    <tool name="ADB_OPEN_URL" description="Opens a web link" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <tool name="ADB_OPEN_URL" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
         <exec>
             <option name="COMMAND" value="$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools/adb_open_url.sh" />
+            <option name="PARAMETERS" value="$Prompt$" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
+    <tool name="ADB_INPUT_TEXT" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools/adb_input_text.sh" />
             <option name="PARAMETERS" value="$Prompt$" />
             <option name="WORKING_DIRECTORY" value="$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools" />
         </exec>
