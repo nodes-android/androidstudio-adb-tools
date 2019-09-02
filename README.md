@@ -1,6 +1,6 @@
 # androidstudio-adb-tools
 
-A External Tool for Android Studio/IntelliJ IDEA that provides some handy ADB actions:
+A External Tool for Android Studio / IntelliJ IDEA that provides some handy ADB actions:
 
 - Mac OS X: **⇧ ⇧ "ADB_"**
 - Windows : // TODO
