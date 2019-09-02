@@ -20,4 +20,18 @@
             <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
         </exec>
     </tool>
+    <tool name="ADB_ENTER_DEMO_MODE" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_enter_demo_mode.sh" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
+    <tool name="ADB_EXIT_DEMO_MODE" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_exit_demo_mode.sh" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
 </toolSet>
