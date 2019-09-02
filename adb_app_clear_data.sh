@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# Obtain package name of current (running) app
-function getPackageName {
-   adb shell dumpsys activity recents | grep 'Recent #0' | cut -d= -f2 | sed 's| .*||' | cut -d '/' -f1
-}
+. utils.sh
 
-package_name=$(getPackageName)
+# Package name of current (running) app
+package_name=$(getCurrentAppPackageName)
 
 # Clear app data
 adb shell pm clear "$package_name"
