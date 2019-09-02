@@ -16,3 +16,8 @@ There must be a better way to share this but for now you need to copy-paste ever
     - Mac OS X: `~/Library/Preferences/AndroidStudio3.5/tools/External Tools.xml`
     - Windows: `// TODO`
 
+## Limitations
+
+- Currently only works with one connected device
+- ADB_APP_* actions target the current (running) app
+
