@@ -41,4 +41,11 @@
             <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
         </exec>
     </tool>
+    <tool name="ADB_APP_SETTINGS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools/adb_app_settings.sh" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/StudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
 </toolSet>
