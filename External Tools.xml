@@ -55,4 +55,11 @@
             <option name="WORKING_DIRECTORY" value="$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools" />
         </exec>
     </tool>
+    <tool name="ADB_PRINT_DISPLAY_INFO" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+        <exec>
+            <option name="COMMAND" value="$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools/adb_print_display_info.sh" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$USER_HOME$/AndroidStudioProjects/androidstudio-adb-tools" />
+        </exec>
+    </tool>
 </toolSet>
